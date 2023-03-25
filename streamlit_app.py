@@ -13,7 +13,7 @@ text = st.text_input("Text input for sentiment classification API", "It was a qu
 request_data = {'text': text}
 
 # URL of the API
-url = 'http://localhost:5000/predict_sentiment'
+url = 'https://fxa-ocrp07-flaskapi.azurewebsites.net:5000/predict_sentiment'
 
 # Send the request containing the text to the API and grab the response r
 # Remember r is the json dict containg the sentiment and the probability
