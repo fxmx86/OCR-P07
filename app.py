@@ -1,4 +1,4 @@
-# Access via http://127.0.0.1:5000
+# Access via http://fxa-ocrp07-flaskapi.azurewebsites.net:5000
 
 # Defining a function to save/restore objects in/from the zip file FileZip. Objects contains the objects list.
 import pandas as pd
