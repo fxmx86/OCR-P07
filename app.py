@@ -4,7 +4,6 @@
 import pandas as pd
 import os.path, zipfile, pickle
 
-
 def zip_save_restore(FileZip: str, Objects: list[]=[], Format: str="pickle", *args, **kwargs):
     """ Depending on the zip file existence, this function will :
         - save all listed objects in a small zip file, if not already done.
