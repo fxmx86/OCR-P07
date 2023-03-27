@@ -3,6 +3,7 @@
 # Defining a function to save/restore objects in/from the zip file FileZip. Objects contains the objects list.
 import pandas as pd
 import os.path, zipfile, pickle
+from tensorflow import keras
 
 def zip_save_restore(FileZip: str, Objects: list=[], Format: str="pickle", *args, **kwargs):
     """ Depending on the zip file existence, this function will :
