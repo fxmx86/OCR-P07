@@ -4,7 +4,6 @@ import requests
 import numpy as np
 
 text = st.text_input("Text input for sentiment classification API", placeholder="It was a quite bad day, poor feeling because I'm sick")
-if text == "": break
 
 #request_data = {'text': "This movie was badly useless, actors had a bad acting game it's a shame"}
 #request_data = {'text': "Today is a good day because I am so in love to this guy"}
