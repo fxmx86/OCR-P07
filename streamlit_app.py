@@ -13,11 +13,13 @@ text = st.text_input("Text input for sentiment classification API", "It was a qu
 request_data = {'text': text}
 
 # URL of the API
-url = 'https://fxa-ocrp07-flaskapi.azurewebsites.net:5000/predict_sentiment'
+url = 'https://fxa-ocrp07-flaskapi.azurewebsites.net/predict_sentiment'
 
+st.write('Ok !')
+st.write('Sending a request for this text :', text)
 # Send the request containing the text to the API and grab the response r
 # Remember r is the json dict containg the sentiment and the probability
 r = requests.post(url, params=request_data)
 
 # Display the image array of the mask color image
-st.write('API answer', r.json())
+st.write('API answer :', r.json())
