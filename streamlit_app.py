@@ -3,7 +3,7 @@ import streamlit as st
 import requests
 import numpy as np
 
-While True:
+while True:
   text = st.text_input("Text input for sentiment classification API", "It was a quite bad day, poor feeling because I'm sick")
   if text = "": break
 
